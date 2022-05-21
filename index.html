@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+<div class="bg" id="bg">
+	<button id="start" onclick="
+	 			 document.getElementById('bg').style.animationPlayState = 'running';
+		 		 document.getElementById('rocket').src = '1rocket.png';
+		 		 document.getElementById('box').style.animationPlayState = 'running';"			>Start Rocket</button>
+	<div class="rocket" id="box">
+		<img src="1rocket.png" id="rocket">
+	</div>
+	<button id="stop" onclick="
+				 document.getElementById('bg').style.animationPlayState = 'paused';
+		 		 document.getElementById('rocket').src = 'rocket.png';
+		 		 document.getElementById('box').style.animationPlayState = 'paused';">Stop Rocket</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
